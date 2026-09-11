@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <Main />
     </v-main>
     <v-btn
       class="ma-2"
@@ -14,5 +14,6 @@
 </template>
 
 <script lang="ts" setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
+import Main from "./components/Main.vue";
 </script>
